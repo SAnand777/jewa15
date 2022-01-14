@@ -1,6 +1,7 @@
-body
+body,html
 {
-    background-color: #efefef
+    background-color: #efefef;
+    box-sizing: border-box;
 }
 h1
 {
