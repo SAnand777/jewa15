@@ -1,0 +1,33 @@
+/* h1
+{
+    border:5px solid red;
+    display: inline;
+}
+p
+{
+    border:5px solid green;
+    display: inline;
+}
+a
+{
+    border:5px solid red;
+    display: block;
+}
+
+img
+{
+    border:5px solid green;
+    height: 200px;
+    width: 200px;
+    display: block;
+} */
+
+p
+{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    /* margin: 60px;
+    padding: 20px; */
+    display: inline-block;
+}
