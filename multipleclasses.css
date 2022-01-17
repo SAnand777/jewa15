@@ -1,0 +1,23 @@
+.btn-txt-clr
+{
+    color: white;
+}
+
+.btn-border
+{
+    border:1px solid purple
+}
+
+.btn-b-radius
+{
+    border-radius:10px
+}
+
+.btn-shadow
+{
+    box-shadow: 2px 2px 2px red;
+}
+.btn-bg-color
+{
+    background-color: rgb(49, 156, 49);
+}

@@ -1,48 +1,47 @@
 /* Element Selector */
-/* h1
-{
-    color: red;
-} */
-
-/* Group Selector */
-/* h1,p,a
+/* p
 {
     color:red
 } */
 
-/* Class Selector */
-/* p.clr
+/* Group Selector */
+/* p,h1,div
 {
-    color: green;
-    font-size: 20px;
+    color: hotpink;
 } */
 
-/* Generic Class selector */
-/* .clr
+/* Class Selector */
+/* h1.jsp
 {
     color: red;
-    font-size: 50px;
-    font-family: algerian;
+} */
+
+/* Generic Class Selector */
+/* .jsp
+{
+    color: red;
+    border-radius: 50px;
 } */
 
 /* ID Selector */
-
 /* #dinga
 {
-    color: hotpink;
-} */
-
-/* Child Selector */
-
-/* h1 a
-{
-    color: orange;
+    color: green;
+    border:2px solid red;
 } */
 
 /* Universal Selector */
-
-*
+/* *
 {
-    color: hotpink;
-    font-size: 50px;
+    color: red;
+} */
+/* Child Selector */
+/* div h1
+{
+    color: red;
+} */
+
+.div-2 h1
+{
+    color: red;
 }
