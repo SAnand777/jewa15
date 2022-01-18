@@ -1,0 +1,98 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,body
+{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* Banner Starts */
+
+.banner
+{
+    height: 650px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.884),rgba(0, 0, 0, 0.87)), 
+    url("https://bootstrapmade.com/demo/templates/Imperial/assets/img/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content
+{
+    text-align: center;
+}
+
+.banner .heading-1
+{
+    font-size: 85px;
+    font-family: Segoe Script;
+}
+
+.banner .heading-2
+{
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+ 
+}
+
+.banner p
+{
+    font-size: 35px;
+    font-weight: 200;
+ 
+}
+
+.banner .btn1,.banner .btn2
+{
+    
+    width: 161px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 3px;
+    padding: 10px;
+    transition:background-color .4s,border .4s ;
+    margin-top: 40px;
+}
+.banner .btn1
+{
+    background-color: rgb(0, 217, 255);
+    border: none;
+}
+
+.banner .btn1:hover
+{
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.banner .btn2
+{
+    background-color: transparent;
+    border: 2px solid white;
+    padding-top:8px ;
+    padding-bottom: 8px;
+    margin-left: 14px;
+    
+   
+}
+.banner .btn2:hover
+{
+    background-color: rgb(0, 217, 255);
+    border:none
+}
+
+/* Banner Ends */
