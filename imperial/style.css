@@ -55,44 +55,97 @@ html,body
  
 }
 
-.banner .btn1,.banner .btn2
+.btns
 {
-    
-    width: 161px;
-    color: white;
-    font-weight: 700;
-    font-size: 16px;
-    border-radius: 3px;
-    padding: 10px;
-    transition:background-color .4s,border .4s ;
     margin-top: 40px;
 }
+.banner .btn1,.banner .btn2
+{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 3px;
+    padding: 10px 20px;
+    transition:background-color .5s,border .5s ;
+    margin: 10px;
+    
+}
+
+.banner-btns
+{
+    margin-top: 40px;
+}
+
 .banner .btn1
 {
-    background-color: rgb(0, 217, 255);
-    border: none;
+    background-color: rgb(3, 220, 228);
+    border:2px solid rgb(3, 220, 228);
 }
 
 .banner .btn1:hover
 {
     background-color: transparent;
-    border: 2px solid white;
+    border:2px solid white;
 }
 
 .banner .btn2
 {
-    background-color: transparent;
     border: 2px solid white;
-    padding-top:8px ;
-    padding-bottom: 8px;
-    margin-left: 14px;
-    
-   
 }
+
 .banner .btn2:hover
 {
-    background-color: rgb(0, 217, 255);
-    border:none
+    background-color: rgb(3, 220, 228);
+    border: 2px solid rgb(3, 220, 228);
 }
 
 /* Banner Ends */
+
+/* Navbar starts */
+
+nav
+{
+    background-color: rgba(0, 0, 0, 0.87);
+    padding: 7px 0px;
+    /* position: fixed;
+    top: 0px;
+    width: 100%; */
+}
+
+nav ul a
+{
+    color: white;
+    text-decoration: none;
+    margin-left: 23px;
+    font-weight: 100;
+    transition:color .5s ;
+}
+
+nav ul a:hover
+{
+    color: rgb(3, 220, 228);
+}
+
+nav ul li
+{
+    display: inline;
+}
+nav ul
+{
+    display: inline;
+    margin-left: 214px;
+}
+
+.brand-logo
+{
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    font-family: Segoe Script;
+    letter-spacing: 1px;
+    margin-left: 143px;
+}
+
+
+/* Navbar Ends */
